@@ -55,7 +55,7 @@ def run():
         
         
         if time_to_send == 0:
-            time_to_send                                                                                                                                     = 11
+            time_to_send = 11
             try:
                 str_pot = "{:.1f}".format(potvalue)
                 client.publish("iSebasHOME/POT1",str(potvalue) )
